@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        .text-animation {
+            justify-items: center;
+            align-content: center;
+            height: 80px;
+            width: 660px;
+            /* width: 550px; */
+            overflow: hidden;
+            border-bottom: 1px solid;
+            border-bottom-color: brown;
+            font-size: 40px;
+
+
+        }
+
+        .text {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            animation: text-scroll 5s ease-in-out infinite;
+        }
+
+
+
+
+        @keyframes text-scroll {
+            0% {
+                transform: translateY(0);
+            }
+
+            20% {
+                transform: translateY(-100%);
+            }
+
+            40% {
+                transform: translateY(-200%);
+            }
+
+            60% {
+                transform: translateY(-300%);
+            }
+
+            80% {
+                transform: translateY(-400%);
+            }
+
+            100% {
+                transform: translateY(-500%);
+            }
+        }
+
+        /* @keyframes text-animate{
+            0%{
+                transform: translateY(0);
+            }
+            15%{
+                transform: translateY(-100%);
+            }
+
+            20%{
+                transform: translateY(-200%);
+            }
+            25%{
+                transform: translateY(-300%);
+            }
+           30%{
+                transform: translateY(-400%);
+            }
+            35%{
+                transform: translateY(-500%);
+            }
+            40%{
+                transform: translateY(-600%);
+            }
+            45%{
+                transform: translateY(-700%);
+            }
+            50%{
+                transform: translateY(-800%);
+            }
+            60%{
+                transform: translateY(-900%);
+            }
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="text-animation">
+        <h2 class="text">
+            Hello...!
+        </h2>
+        <h2 class="text">
+            I'm Vannamma N A!
+        </h2>
+        <h2 class="text">
+            Frontend Developer
+        </h2>
+        <h2 class="text">
+            Web Developer
+        </h2>
+        <h2 class="text">
+            Canva Graphics
+        </h2>
+        <h2 class="text">
+            Thank You😊
+        </h2>
+
+    </div>
+</body>
+
+</html>
